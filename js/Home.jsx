@@ -21,8 +21,8 @@ const CardItem = styled.li`
 `;
 
 const Home = (props: { image: Image }) => (
-  <CardList className="card-list">
-    {props.image.map(image => <CardItem key={image.id} className="card-item"><Card {...image} /></CardItem>)}
+  <CardList>
+    {props.image.map(image => <CardItem key={image.id}><Card {...image} /></CardItem>)}
   </CardList>
 );
 

@@ -24,7 +24,7 @@ const SiteBody = styled.section`
   flex-grow: 1;
   width: 100%;
   max-width: 1200px;
-  padding: 30px;
+  padding: 50px 30px;
   margin-right: auto;
   margin-left: auto;
 `;
@@ -34,9 +34,9 @@ const FourOhFour = () => <h1>404</h1>;
 
 const App = () => (
   <BrowserRouter>
-    <Site className="site">
+    <Site>
       <Header />
-      <SiteBody className="site-body">
+      <SiteBody>
         <Switch>
           <Route exact path="/" component={(props: { match: Match}) => (
               <Home image={preload.images} {...props} />

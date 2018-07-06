@@ -9,7 +9,7 @@ const SiteFooter = styled.footer`
 `;
 
 const Footer = () => (
-  <SiteFooter className="site-footer">
+  <SiteFooter>
     &copy;&nbsp;2018 Dantilse
   </SiteFooter>
 );

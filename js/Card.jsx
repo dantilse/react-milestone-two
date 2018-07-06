@@ -60,11 +60,11 @@ const Card = (props: {
   }
 
   return (
-    <CardLink className="card" to={`/details/${props.id}`}>
-      <CardImage className="card-image">
+    <CardLink to={`/details/${props.id}`}>
+      <CardImage>
         <img src={`//images.unsplash.com/${props.id}`} alt={props.title} />
       </CardImage>
-      <CardInfo className="card-info">
+      <CardInfo>
         <h2>{props.title}</h2>
         {hasDescription}
         <p>by {props.photographer} <em>{props.handle}</em></p>

@@ -68,12 +68,12 @@ const DetailInfo = styled.div`
 
 const Details = (props: { image: Image }) => (
   <div>
-    <BackLink className="back-link" to="/">Back to Home</BackLink>
-    <Detail className="detail">
-      <DetailImage className="detail-image">
+    <BackLink to="/">Back to Home</BackLink>
+    <Detail>
+      <DetailImage>
         <img src={`//images.unsplash.com/${props.image.id}`} alt={props.image.title} />
       </DetailImage>
-      <DetailInfo className="detail-info">
+      <DetailInfo>
         <h2>{props.image.title}</h2>
         <p>by {props.image.photographer} <em>{props.image.handle}</em></p>
         <p>{props.image.description}</p>
