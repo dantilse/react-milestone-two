@@ -1,13 +1,16 @@
-# A Complete Intro to React
+# React Milestone Two
 
-Welcome to a complete intro to React! The site actual workshop material for this repo can be found [here][gh-page]. On the master branch you will find the completed project. On the start branch you will find the barebones boilerplater of the project designed to help you get started.
+**Goal:** To create a simple Single Page App using React with React Router.
 
-## Contributing
 
-Please contribute, file issues, and make PRs. More than anything I'm sure there are typos abounding.
+## Setup instructions
+
+This project requires Node and Yarn to be installed globally.
+
+`$ yarn dev` runs the build command and starts up the Node server on localhost:8080
 
 ## License
 
 MIT
 
-[gh-page]: http://btholt.github.io/complete-intro-to-react/
+[gh-page]: https://github.com/dantilse/react-milestone-two
