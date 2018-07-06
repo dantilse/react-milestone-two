@@ -7,12 +7,6 @@ import styled from 'styled-components';
 const CardLink = styled((Link: any))`
   position: relative;
   display: block;
-
-  &:hover {
-    .card-info {
-      opacity: 1;
-    }
-  }
 `;
 
 const CardImage = styled.figure`
@@ -38,6 +32,10 @@ const CardInfo = styled.section`
   @media (min-width: 768px) {
     opacity: 0;
     background: rgba(0, 0, 0, 0.5);
+  }
+
+  ${CardLink}:hover & {
+    opacity: 1;
   }
 `;
 
