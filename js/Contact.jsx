@@ -60,10 +60,16 @@ const SubmitButton = styled.button`
   touch-action: manipulation;
   cursor: pointer;
   user-select: none;
-  background-color: #337ab7;
+  background-color: #C7402D;
   background-image: none;
-  border: 1px solid #2e6da4;
+  border: 1px solid #b11b1b;
   border-radius: 3px;
+  transition: all 250ms ease-in-out;
+
+  &:hover {
+    background-color: #b11b1b;
+    border-color: #851414;
+  }
 `;
 
 const FormRow = styled.div`

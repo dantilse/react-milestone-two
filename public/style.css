@@ -93,16 +93,20 @@ template {
  */
 
 a {
+  color: #15959F;
+  text-decoration: none;
   background-color: transparent;
+  transition: color 250ms ease-in-out;
 }
 
 /**
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-
+ 
 a:active,
 a:hover {
+  color: #0f6b72;
   outline: 0;
 }
 
