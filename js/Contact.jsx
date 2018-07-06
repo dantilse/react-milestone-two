@@ -29,21 +29,9 @@ const Input = styled.input`
   transition: border-color 250ms ease-in-out;
 `;
 
-const TextArea = styled.textarea`
-  display: block;
-  width: 100%;
+// reuse all of the Input styles, but override the height for row to work
+const TextArea = Input.withComponent('textarea').extend`
   height: auto;
-  padding: 6px 12px;
-  font-family: inherit;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #555;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  box-shadow: none;
-  transition: border-color 250ms ease-in-out;
 `;
 
 const SubmitButton = styled.button`
