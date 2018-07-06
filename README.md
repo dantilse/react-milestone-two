@@ -11,6 +11,8 @@ This project requires Node and Yarn to be installed globally.
 
 ## License
 
+This project is based on Brian Holt's Front End Masters course [Complete intro to React v3](https://frontendmasters.com/courses/react/).
+
 MIT
 
 [gh-page]: https://github.com/dantilse/react-milestone-two
