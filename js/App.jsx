@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Link, BrowserRouter, Route, Switch } from 'react-router-dom';
 import type { Match } from 'react-router-dom'; // flow type provided by router
 import styled from 'styled-components';
 // Components
@@ -30,7 +30,12 @@ const SiteBody = styled.section`
 `;
 
 
-const FourOhFour = () => <h1>404</h1>;
+const FourOhFour = () => (
+  <div>
+    <h1>404</h1>
+    <Link to="/">Go back to the home page</Link>
+  </div>
+);
 
 const App = () => (
   <BrowserRouter>
